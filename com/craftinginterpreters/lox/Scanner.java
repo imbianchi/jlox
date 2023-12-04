@@ -37,7 +37,7 @@ class Scanner {
         keywords.put("while", WHILE);
     }
 
-    Scanner(String source) {
+    public Scanner(String source) {
         this.source = source;
     }
 
@@ -89,7 +89,7 @@ class Scanner {
                 addToken(match('=') ? BANG_EQUAL : BANG);
                 break;
             case '=':
-                addToken(match('=') ? EQUA_EQUAL : EQUAL);
+                addToken(match('=') ? EQUAL_EQUAL : EQUAL);
                 break;
             case '<':
                 addToken(match('=') ? LESS_EQUAL : LESS);
