@@ -6,12 +6,8 @@ This repository contains a Java implementation of an interpreter based on the "C
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Building the Solution](#building-the-solution)
-- [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 The "Crafting Interpreters" ebook serves as the foundation for this project, guiding the implementation of a fully functional interpreter. The focus is on understanding the principles of crafting interpreters and applying them using plain Java.
