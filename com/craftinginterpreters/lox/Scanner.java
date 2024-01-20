@@ -101,6 +101,15 @@ class Scanner {
                 if (match('/')) {
                     while (peek() != '\n' && !isAtEnd())
                         advance();
+                } else if(match('*')) { // CHALLANGE CAP 4
+                    while(!isAtEnd()) {
+                        advance();                        
+                        if(match('*')) {
+                            if(match('/')) {
+                                break;
+                            }
+                        }
+                    }
                 } else {
                     addToken(SLASH);
                 }
@@ -130,10 +139,12 @@ class Scanner {
             default:
                 if (isDigit(c)) {
                     number();
+                } else if(isAlpha(c)) {
+                    identifier();
                 } else {
                     Lox.error(line, "Unexpected character.");
                 }
-                Lox.error(line, "Unexpected character.");
+                
                 break;
         }
     }
