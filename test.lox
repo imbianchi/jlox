@@ -16,6 +16,10 @@ testeeeeeeeeeeee
 let lox = "LOX22222222";
 testeeeeeeeeeeee
 testeeeeeeeeeeee
- */let confundindo = "TESTANDO";
+ */;
 
 let lox = "LOX3";
+
+let number = 5.232;
+let numberError = .232;
+let number = 5;
