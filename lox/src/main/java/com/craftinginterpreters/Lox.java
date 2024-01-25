@@ -47,15 +47,13 @@ public class Lox {
     }
   }
 
-  static List<Token> run(String source) {
+  static void run(String source) {
     Scanner scanner = new Scanner(source);
     List<Token> tokens = scanner.scanTokens();
 
     for (Token token : tokens) {
       System.out.println(token);
     }
-
-    return tokens;
   }
 
   static void error(int line, String message) {
