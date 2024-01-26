@@ -1,17 +1,33 @@
 package com.craftinginterpreters;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ScannerTest {
-    private final List<Token> tokensList = new ArrayList<>();
-    private final Scanner scanner;
+import static org.mockito.Mockito.*;
 
-    public ScannerTest() {
-        this.scanner = new Scanner("let");
+@ExtendWith(MockitoExtension.class)
+public class ScannerTest {
+
+    @InjectMocks
+    Scanner scanner;
+
+    @Mock
+    List<Token> tokensList;
+
+    @BeforeEach
+    public void setUp() {
+        scanner = spy(new Scanner("let"));
+        tokensList = new ArrayList<>();
     }
 
     /**
@@ -42,5 +58,34 @@ public class ScannerTest {
         char c = 'a';
         boolean result = new Scanner(Character.toString(c)).isDigit(c);
         Assertions.assertFalse(result);
+    }
+
+    @Test
+    public void shouldCheckScannerStringMethod() {
+        doNothing().when(scanner).string();
+
+        scanner.string();
+        verify(scanner).string();
+    }
+
+    @Test
+    public void shouldReturnSomeCharsFromAdvance() {
+        char returnedValue = scanner.advance();
+
+        Assertions.assertEquals('l', returnedValue);
+        scanner.advance();
+        returnedValue = scanner.advance();
+
+        Assertions.assertEquals('t', returnedValue);
+    }
+
+    @Test
+    public void shouldReturnSomeCharsFromPeekNext() {
+        char returnedValue = scanner.peekNext();
+
+        Assertions.assertEquals('e', returnedValue);
+
+        returnedValue = scanner.peekNext();
+        Assertions.assertEquals('e', returnedValue);
     }
 }

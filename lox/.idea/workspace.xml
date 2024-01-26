@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="864afa05-dff5-4e22-98b5-c625d496b83f" name="Changes" comment="" />
+    <list default="true" id="864afa05-dff5-4e22-98b5-c625d496b83f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/craftinginterpreters/test.lox" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftinginterpreters/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftinginterpreters/Scanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/craftinginterpreters/LoxTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/craftinginterpreters/ScannerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/craftinginterpreters/ScannerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +52,11 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "JUnit.All in lox.executor": "Run",
     "JUnit.LoxTest.shouldAnswerWithTrueArrays.executor": "Debug",
+    "JUnit.LoxTest.shouldRunFileWithSuccess.executor": "Run",
+    "JUnit.ScannerTest.executor": "Run",
+    "JUnit.ScannerTest.shouldCheckScannerStringMethod.executor": "Run",
+    "JUnit.ScannerTest.shouldReturnSomeChars.executor": "Run",
+    "JUnit.ScannerTest.shouldReturnSomeCharsFromPeekNext.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "feat/add-maven-junit",
@@ -59,7 +74,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.LoxTest.shouldAnswerWithTrueArrays">
+  <component name="RunManager" selected="JUnit.ScannerTest.shouldReturnSomeCharsFromPeekNext">
     <configuration name="jlox" type="Application" factoryName="Application" activateToolWindowBeforeRun="false">
       <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../../../Program Files/Java/jdk-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -68,15 +83,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in lox" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lox" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoxTest.shouldAnswerWithTrueArrays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoxTest.shouldRunFileWithSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lox" />
       <extension name="coverage">
         <pattern>
@@ -86,7 +93,70 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.craftinginterpreters" />
       <option name="MAIN_CLASS_NAME" value="com.craftinginterpreters.LoxTest" />
-      <option name="METHOD_NAME" value="shouldAnswerWithTrueArrays" />
+      <option name="METHOD_NAME" value="shouldRunFileWithSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScannerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.craftinginterpreters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.craftinginterpreters" />
+      <option name="MAIN_CLASS_NAME" value="com.craftinginterpreters.ScannerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScannerTest.shouldCheckScannerStringMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.craftinginterpreters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.craftinginterpreters" />
+      <option name="MAIN_CLASS_NAME" value="com.craftinginterpreters.ScannerTest" />
+      <option name="METHOD_NAME" value="shouldCheckScannerStringMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScannerTest.shouldReturnSomeChars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.craftinginterpreters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.craftinginterpreters" />
+      <option name="MAIN_CLASS_NAME" value="com.craftinginterpreters.ScannerTest" />
+      <option name="METHOD_NAME" value="shouldReturnSomeChars" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScannerTest.shouldReturnSomeCharsFromPeekNext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.craftinginterpreters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.craftinginterpreters" />
+      <option name="MAIN_CLASS_NAME" value="com.craftinginterpreters.ScannerTest" />
+      <option name="METHOD_NAME" value="shouldReturnSomeCharsFromPeekNext" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,13 +164,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.jlox" />
-      <item itemvalue="JUnit.All in lox" />
-      <item itemvalue="JUnit.LoxTest.shouldAnswerWithTrueArrays" />
+      <item itemvalue="JUnit.LoxTest.shouldRunFileWithSuccess" />
+      <item itemvalue="JUnit.ScannerTest" />
+      <item itemvalue="JUnit.ScannerTest.shouldCheckScannerStringMethod" />
+      <item itemvalue="JUnit.ScannerTest.shouldReturnSomeChars" />
+      <item itemvalue="JUnit.ScannerTest.shouldReturnSomeCharsFromPeekNext" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in lox" />
-        <item itemvalue="JUnit.LoxTest.shouldAnswerWithTrueArrays" />
+        <item itemvalue="JUnit.ScannerTest.shouldReturnSomeCharsFromPeekNext" />
+        <item itemvalue="JUnit.ScannerTest.shouldReturnSomeChars" />
+        <item itemvalue="JUnit.ScannerTest.shouldCheckScannerStringMethod" />
+        <item itemvalue="JUnit.ScannerTest" />
+        <item itemvalue="JUnit.LoxTest.shouldRunFileWithSuccess" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +195,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706062202447</updated>
-      <workItem from="1706062203499" duration="6225000" />
+      <workItem from="1706062203499" duration="13477000" />
     </task>
     <servers />
   </component>
@@ -128,5 +204,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lox$LoxTest_shouldRunFileWithSuccess.ic" NAME="LoxTest.shouldRunFileWithSuccess Coverage Results" MODIFIED="1706224264884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.craftinginterpreters.*</FILTER>
+    </SUITE>
   </component>
 </project>

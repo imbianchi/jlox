@@ -173,7 +173,7 @@ class Scanner {
     addToken(NUMBER, Double.parseDouble(source.substring(start, current)));
   }
 
-  private void string() {
+  public void string() {
     while (peek() != '"' && !isAtEnd()) {
       if (peek() == '\n') line++;
       advance();
@@ -204,7 +204,7 @@ class Scanner {
     return source.charAt(current);
   }
 
-  private char peekNext() {
+  public char peekNext() {
     if (current + 1 >= source.length()) return '\0';
 
     return source.charAt(current + 1);
@@ -226,7 +226,7 @@ class Scanner {
     return current >= source.length();
   }
 
-  private char advance() {
+  public char advance() {
     return source.charAt(current++);
   }
 
