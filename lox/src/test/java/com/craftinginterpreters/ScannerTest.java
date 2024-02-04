@@ -8,6 +8,10 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
+import com.craftinginterpreters.lox.Scanner;
+import com.craftinginterpreters.lox.Token;
+import com.craftinginterpreters.lox.TokenType;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
