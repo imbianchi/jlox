@@ -5,26 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="864afa05-dff5-4e22-98b5-c625d496b83f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftinginterpreters/lox/Lox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftinginterpreters/lox/RuntimeError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftinginterpreters/lox/Scanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftinginterpreters/lox/Token.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftinginterpreters/lox/TokenType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftinginterpreters/tool/GenerateAst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftinginterpreters/lox/Expr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftinginterpreters/Lox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftinginterpreters/RuntimeError.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftinginterpreters/Scanner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftinginterpreters/Token.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftinginterpreters/TokenType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/craftinginterpreters/ScannerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/craftinginterpreters/ScannerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/craftinginterpreters/Lox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/craftinginterpreters/RuntimeError.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/craftinginterpreters/Scanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/craftinginterpreters/Token.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/craftinginterpreters/TokenType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftinginterpreters/lox/RuntimeError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftinginterpreters/lox/RuntimeError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftinginterpreters/lox/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftinginterpreters/lox/Scanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftinginterpreters/lox/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftinginterpreters/lox/Token.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftinginterpreters/lox/TokenType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftinginterpreters/lox/TokenType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftinginterpreters/tool/GenerateAst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftinginterpreters/tool/GenerateAst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lox-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/lox-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.craftinginterpreters.LoxTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.craftinginterpreters.LoxTest.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/craftinginterpreters/ScannerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/craftinginterpreters/ScannerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/craftinginterpreters/test.lox" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,38 +55,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;JUnit.All in lox.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LoxTest.shouldAnswerWithTrueArrays.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.LoxTest.shouldRunFileWithSuccess.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ScannerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ScannerTest.shouldCheckScannerStringMethod.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ScannerTest.shouldReturnSomeChars.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ScannerTest.shouldReturnSomeCharsFromPeekNext.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feat/add-maven-junit&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/joao/source/repos/jlox/lox&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.tool.executor": "Run",
+    "JUnit.All in lox.executor": "Run",
+    "JUnit.LoxTest.shouldAnswerWithTrueArrays.executor": "Debug",
+    "JUnit.LoxTest.shouldRunFileWithSuccess.executor": "Run",
+    "JUnit.ScannerTest.executor": "Run",
+    "JUnit.ScannerTest.shouldCheckScannerStringMethod.executor": "Run",
+    "JUnit.ScannerTest.shouldReturnSomeChars.executor": "Run",
+    "JUnit.ScannerTest.shouldReturnSomeCharsFromPeekNext.executor": "Run",
+    "Maven.lox [compile].executor": "Run",
+    "Maven.lox [install].executor": "Run",
+    "Maven.lox [site:run].executor": "Run",
+    "Maven.lox.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feat/add-maven-junit",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/joao/source/repos/jlox/lox/src/main/java/com/craftinginterpreters/tool",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.ScannerTest.shouldReturnSomeCharsFromPeekNext">
+}]]></component>
+  <component name="RunManager" selected="Application.tool">
+    <configuration default="true" type="Application" factoryName="Application">
+      <module name="lox" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="jlox" type="Application" factoryName="Application" activateToolWindowBeforeRun="false">
       <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../../../Program Files/Java/jdk-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="lox" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tool" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.craftinginterpreters.tool.GenerateAst" />
+      <module name="lox" />
+      <option name="PROGRAM_PARAMETERS" value="./src/main/java/com/craftinginterpreters/tool" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -173,7 +189,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="compile" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Application.tool" />
       <item itemvalue="Application.jlox" />
       <item itemvalue="JUnit.LoxTest.shouldRunFileWithSuccess" />
       <item itemvalue="JUnit.ScannerTest" />
@@ -208,7 +255,7 @@
       <updated>1706062202447</updated>
       <workItem from="1706062203499" duration="16758000" />
       <workItem from="1706710960314" duration="549000" />
-      <workItem from="1707006498616" duration="3152000" />
+      <workItem from="1707006498616" duration="14152000" />
     </task>
     <servers />
   </component>

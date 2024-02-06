@@ -1,0 +1,196 @@
+-------------------------------------------------------------------------------
+Test set: com.craftinginterpreters.ScannerTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.897 s <<< FAILURE! - in com.craftinginterpreters.ScannerTest
+shouldCheckTokensListAndTokenType  Time elapsed: 0.672 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: interface java.util.List.
+
+If you're not sure why you're getting this error, please open an issue on GitHub.
+
+
+Java               : 21
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 21.0.2+13-LTS-58
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 21.0.2+13-LTS-58
+JVM info           : mixed mode, sharing
+OS name            : Windows 11
+OS version         : 10.0
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, interface java.util.List, interface java.util.Collection, interface java.util.SequencedCollection]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, interface java.util.List, interface java.util.Collection, interface java.util.SequencedCollection]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Java 21 (65) is not supported by the current version of Byte Buddy which officially supports Java 20 (64) - update Byte Buddy or set net.bytebuddy.experimental as a VM property
+
+shouldAnswerFalseToDigitChar  Time elapsed: 0.057 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: interface java.util.List.
+
+If you're not sure why you're getting this error, please open an issue on GitHub.
+
+
+Java               : 21
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 21.0.2+13-LTS-58
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 21.0.2+13-LTS-58
+JVM info           : mixed mode, sharing
+OS name            : Windows 11
+OS version         : 10.0
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, interface java.util.List, interface java.util.Collection, interface java.util.SequencedCollection]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, interface java.util.List, interface java.util.Collection, interface java.util.SequencedCollection]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Java 21 (65) is not supported by the current version of Byte Buddy which officially supports Java 20 (64) - update Byte Buddy or set net.bytebuddy.experimental as a VM property
+
+shouldCheckIfACharIsADigit  Time elapsed: 0.05 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: interface java.util.List.
+
+If you're not sure why you're getting this error, please open an issue on GitHub.
+
+
+Java               : 21
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 21.0.2+13-LTS-58
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 21.0.2+13-LTS-58
+JVM info           : mixed mode, sharing
+OS name            : Windows 11
+OS version         : 10.0
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, interface java.util.List, interface java.util.Collection, interface java.util.SequencedCollection]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, interface java.util.List, interface java.util.Collection, interface java.util.SequencedCollection]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Java 21 (65) is not supported by the current version of Byte Buddy which officially supports Java 20 (64) - update Byte Buddy or set net.bytebuddy.experimental as a VM property
+
+shouldReturnSomeCharsFromAdvance  Time elapsed: 0.038 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: interface java.util.List.
+
+If you're not sure why you're getting this error, please open an issue on GitHub.
+
+
+Java               : 21
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 21.0.2+13-LTS-58
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 21.0.2+13-LTS-58
+JVM info           : mixed mode, sharing
+OS name            : Windows 11
+OS version         : 10.0
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, interface java.util.List, interface java.util.Collection, interface java.util.SequencedCollection]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, interface java.util.List, interface java.util.Collection, interface java.util.SequencedCollection]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Java 21 (65) is not supported by the current version of Byte Buddy which officially supports Java 20 (64) - update Byte Buddy or set net.bytebuddy.experimental as a VM property
+
+shouldCheckScannerStringMethod  Time elapsed: 0.031 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: interface java.util.List.
+
+If you're not sure why you're getting this error, please open an issue on GitHub.
+
+
+Java               : 21
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 21.0.2+13-LTS-58
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 21.0.2+13-LTS-58
+JVM info           : mixed mode, sharing
+OS name            : Windows 11
+OS version         : 10.0
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, interface java.util.List, interface java.util.Collection, interface java.util.SequencedCollection]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, interface java.util.List, interface java.util.Collection, interface java.util.SequencedCollection]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Java 21 (65) is not supported by the current version of Byte Buddy which officially supports Java 20 (64) - update Byte Buddy or set net.bytebuddy.experimental as a VM property
+
+shouldReturnSomeCharsFromPeekNext  Time elapsed: 0.027 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: interface java.util.List.
+
+If you're not sure why you're getting this error, please open an issue on GitHub.
+
+
+Java               : 21
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 21.0.2+13-LTS-58
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 21.0.2+13-LTS-58
+JVM info           : mixed mode, sharing
+OS name            : Windows 11
+OS version         : 10.0
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, interface java.util.List, interface java.util.Collection, interface java.util.SequencedCollection]
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.lang.Iterable, interface java.util.List, interface java.util.Collection, interface java.util.SequencedCollection]
+Caused by: java.lang.IllegalStateException: 
+
+Byte Buddy could not instrument all classes within the mock's type hierarchy
+
+This problem should never occur for javac-compiled classes. This problem has been observed for classes that are:
+ - Compiled by older versions of scalac
+ - Classes that are part of the Android distribution
+Caused by: java.lang.IllegalArgumentException: Java 21 (65) is not supported by the current version of Byte Buddy which officially supports Java 20 (64) - update Byte Buddy or set net.bytebuddy.experimental as a VM property
+

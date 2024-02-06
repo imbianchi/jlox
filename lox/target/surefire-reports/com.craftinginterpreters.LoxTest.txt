@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.craftinginterpreters.LoxTest
--------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.124 s <<< FAILURE! - in com.craftinginterpreters.LoxTest
-shouldAnswerWithTrueArrays  Time elapsed: 0.033 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: java.util.ArrayList@5606c0b<[IDENTIFIER let null, EOF  null]> but was: java.util.ArrayList@80ec1f8<[IDENTIFIER let null, EOF  null]>
-	at com.craftinginterpreters.LoxTest.shouldAnswerWithTrueArrays(LoxTest.java:33)
-

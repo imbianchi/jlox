@@ -1,5 +1,7 @@
-/mnt/c/Users/joao/source/repos/jlox/lox/src/main/java/com/craftinginterpreters/Token.java
-/mnt/c/Users/joao/source/repos/jlox/lox/src/main/java/com/craftinginterpreters/Scanner.java
-/mnt/c/Users/joao/source/repos/jlox/lox/src/main/java/com/craftinginterpreters/Lox.java
-/mnt/c/Users/joao/source/repos/jlox/lox/src/main/java/com/craftinginterpreters/RuntimeError.java
-/mnt/c/Users/joao/source/repos/jlox/lox/src/main/java/com/craftinginterpreters/TokenType.java
+C:\Users\joao\source\repos\jlox\lox\src\main\java\com\craftinginterpreters\tool\GenerateAst.java
+C:\Users\joao\source\repos\jlox\lox\src\main\java\com\craftinginterpreters\lox\Token.java
+C:\Users\joao\source\repos\jlox\lox\src\main\java\com\craftinginterpreters\lox\TokenType.java
+C:\Users\joao\source\repos\jlox\lox\src\main\java\com\craftinginterpreters\lox\Scanner.java
+C:\Users\joao\source\repos\jlox\lox\src\main\java\com\craftinginterpreters\lox\Expr.java
+C:\Users\joao\source\repos\jlox\lox\src\main\java\com\craftinginterpreters\lox\Lox.java
+C:\Users\joao\source\repos\jlox\lox\src\main\java\com\craftinginterpreters\lox\RuntimeError.java
