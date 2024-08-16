@@ -1,0 +1,25 @@
+let lox = "LOX1";
+
+// OUTRO COMENTARIO
+
+let lox = "LOX2";
+
+// OUTRO COMENTARIO
+
+print "teste";
+
+/*
+testeeeeeeeeeeee
+testeeeeeeeeeeee
+testeeeeeeeeeeee
+testeeeeeeeeeeee
+let lox = "LOX22222222";
+testeeeeeeeeeeee
+testeeeeeeeeeeee
+ */;
+
+let lox = "LOX3";
+
+let number = 5.232;
+let numberError = .232;
+let number = 5;
