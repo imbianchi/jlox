@@ -1,10 +1,11 @@
-let lox = "LOX1";
+33 + 22 - 1 >= 2
+// let lox = "LOX1";
 
 // OUTRO COMENTARIO
 
-let lox = "LOX2";
+// let lox = "LOX2";
 
-// OUTRO COMENTARIO
+// ANOTHER COMMENT
 
 print "teste";
 
@@ -18,8 +19,8 @@ testeeeeeeeeeeee
 testeeeeeeeeeeee
  */;
 
-let lox = "LOX3";
+// let lox = "LOX3";
 
-let number = 5.232;
-let numberError = .232;
-let number = 5;
+// let number = 5.232;
+// let numberError = .232;
+// let number = 5;
