@@ -1,5 +1,11 @@
-33 + 22 - 1 >= 2
-// let lox = "LOX1";
+var lox = "LOX1";
+
+{
+    var lox = "LOX2";
+    print lox;
+}
+
+print lox;
 
 // OUTRO COMENTARIO
 
@@ -7,7 +13,7 @@
 
 // ANOTHER COMMENT
 
-print "teste";
+print lox;
 
 /*
 testeeeeeeeeeeee
@@ -17,7 +23,7 @@ testeeeeeeeeeeee
 let lox = "LOX22222222";
 testeeeeeeeeeeee
 testeeeeeeeeeeee
- */;
+*/
 
 // let lox = "LOX3";
 
