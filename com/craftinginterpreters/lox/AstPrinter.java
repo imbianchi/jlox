@@ -1,6 +1,7 @@
 package com.craftinginterpreters.lox;
 
 import com.craftinginterpreters.lox.Expr.Assign;
+import com.craftinginterpreters.lox.Expr.Logical;
 import com.craftinginterpreters.lox.Expr.Variable;
 
 public class AstPrinter implements Expr.Visitor<String> {
@@ -51,5 +52,10 @@ public class AstPrinter implements Expr.Visitor<String> {
     @Override
     public String visitVariableExpr(Variable expr) {
         throw new UnsupportedOperationException("Unimplemented method 'visitVariableExpr'");
+    }
+
+    @Override
+    public String visitLogicalExpr(Logical expr) {
+        throw new UnsupportedOperationException("Unimplemented method 'visitLogicalExpr'");
     }
 }

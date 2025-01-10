@@ -1,32 +1,9 @@
-var lox = "LOX1";
-
-{
-    var lox = "LOX2";
-    print lox;
+var a = 0;
+var temp;
+for (var b = 1; a < 1000; b = temp + b) {
+  print a;
+  temp = a;
+  a = b;
 }
 
-print lox;
-
-// OUTRO COMENTARIO
-
-// let lox = "LOX2";
-
 // ANOTHER COMMENT
-
-print lox;
-
-/*
-testeeeeeeeeeeee
-testeeeeeeeeeeee
-testeeeeeeeeeeee
-testeeeeeeeeeeee
-let lox = "LOX22222222";
-testeeeeeeeeeeee
-testeeeeeeeeeeee
-*/
-
-// let lox = "LOX3";
-
-// let number = 5.232;
-// let numberError = .232;
-// let number = 5;
