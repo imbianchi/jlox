@@ -2,7 +2,10 @@ package com.craftinginterpreters.lox;
 
 import com.craftinginterpreters.lox.Expr.Assign;
 import com.craftinginterpreters.lox.Expr.Call;
+import com.craftinginterpreters.lox.Expr.Get;
 import com.craftinginterpreters.lox.Expr.Logical;
+import com.craftinginterpreters.lox.Expr.Set;
+import com.craftinginterpreters.lox.Expr.This;
 import com.craftinginterpreters.lox.Expr.Variable;
 
 public class AstPrinter implements Expr.Visitor<String> {
@@ -63,5 +66,20 @@ public class AstPrinter implements Expr.Visitor<String> {
     @Override
     public String visitCallExpr(Call expr) {
         throw new UnsupportedOperationException("Unimplemented method 'visitCallExpr'");
+    }
+
+    @Override
+    public String visitGetExpr(Get expr) {
+        throw new UnsupportedOperationException("Unimplemented method 'visitGetExpr'");
+    }
+
+    @Override
+    public String visitSetExpr(Set expr) {
+        throw new UnsupportedOperationException("Unimplemented method 'visitSetExpr'");
+    }
+
+    @Override
+    public String visitThisExpr(This expr) {
+        throw new UnsupportedOperationException("Unimplemented method 'visitThisExpr'");
     }
 }
