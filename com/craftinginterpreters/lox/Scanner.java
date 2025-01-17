@@ -1,6 +1,5 @@
 package com.craftinginterpreters.lox;
 
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -8,7 +7,6 @@ import java.util.Map;
 import static com.craftinginterpreters.lox.TokenType.*;
 
 class Scanner {
-
   private final String source;
   private final List<Token> tokens = new ArrayList<>();
 
@@ -100,7 +98,8 @@ class Scanner {
         break;
       case '/':
         if (match('/')) {
-          while (peek() != '\n' && !isAtEnd()) advance();
+          while (peek() != '\n' && !isAtEnd())
+            advance();
         } else if (match('*')) {
           while (!isAtEnd()) {
             if (peek() == '\n') {
@@ -156,18 +155,22 @@ class Scanner {
 
     String text = source.substring(start, current);
     TokenType type = keywords.get(text);
-    if (type == null) type = IDENTIFIER;
+
+    if (type == null)
+      type = IDENTIFIER;
 
     addToken(type);
   }
 
   private void number() {
-    while (isDigit(peek())) advance();
+    while (isDigit(peek()))
+      advance();
 
     if (peek() == '.' && isDigit(peekNext())) {
       advance();
 
-      while (isDigit(peek())) advance();
+      while (isDigit(peek()))
+        advance();
     }
 
     addToken(NUMBER, Double.parseDouble(source.substring(start, current)));
@@ -175,7 +178,8 @@ class Scanner {
 
   private void string() {
     while (peek() != '"' && !isAtEnd()) {
-      if (peek() == '\n') line++;
+      if (peek() == '\n')
+        line++;
       advance();
     }
 
@@ -191,21 +195,25 @@ class Scanner {
   }
 
   private boolean match(char expected) {
-    if (isAtEnd()) return false;
-    if (source.charAt(current) != expected) return false;
+    if (isAtEnd())
+      return false;
+    if (source.charAt(current) != expected)
+      return false;
 
     current++;
     return true;
   }
 
   private char peek() {
-    if (isAtEnd()) return '\0';
+    if (isAtEnd())
+      return '\0';
 
     return source.charAt(current);
   }
 
   private char peekNext() {
-    if (current + 1 >= source.length()) return '\0';
+    if (current + 1 >= source.length())
+      return '\0';
 
     return source.charAt(current + 1);
   }
